@@ -1,0 +1,390 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  overflow-x: hidden;
+}
+
+h1,
+h3 {
+  font-weight: 900;
+}
+
+span {
+  color: #ff6634;
+}
+/* Navbar styling */
+.sign-up {
+  color: #ff6634 !important;
+  border: 1px solid #ff6634;
+}
+
+.icon {
+  border-radius: 50%;
+  border: 1px solid #fff;
+  font-size: 12px;
+}
+
+.tx-size {
+  font-size: 13px;
+}
+
+/* Hero styling */
+.hero-section {
+  background-color: #ffebff;
+  margin-bottom: 100px;
+}
+
+/* Quotes styling */
+
+.quote {
+  margin: 70px 50px 0 -50px;
+  color: #8d8d8d;
+  position: relative;
+}
+
+.quote-content {
+  margin-left: 35px;
+  font-size: 14px;
+}
+
+.down {
+  position: absolute;
+  right: 10px;
+}
+
+.hero-img {
+  position: relative;
+}
+
+.hero-test {
+  position: absolute;
+  top: 22px;
+  left: -5px;
+}
+
+.percent {
+  position: absolute;
+  top: 25%;
+  left: 25%;
+
+  height: 58px;
+  width: 58px;
+  background-color: #fff;
+  /* padding: 10px; */
+  text-align: center;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.inner-per {
+  background-color: #f7f7f7;
+  /* padding: 10px; */
+  border-radius: 50%;
+  border: 5px solid #ff6634;
+  height: 45px;
+  width: 45px;
+  text-align: center;
+  margin: 5px auto;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.inner-per p {
+  margin: 8px auto;
+}
+
+.employ-number {
+  background-color: #fff;
+  width: 81px;
+  height: 80px;
+  text-align: center;
+  border-radius: 6px;
+  box-shadow: 0px 4px 11px 5px rgba(239, 239, 239, 0.25);
+  position: absolute;
+  top: 35%;
+  right: 15%;
+}
+
+.employ-number .figure {
+  padding: 5px;
+}
+
+.employ-number .figure h4 {
+  font-size: 29px;
+  font-weight: 600;
+  color: #ff6634 !important;
+}
+
+.employ-number .figure p {
+  font-size: 9px;
+}
+
+.card-hero {
+  width: 263px;
+  height: 147px;
+  position: absolute;
+  bottom: 60px;
+  left: 60px;
+  font-size: 12px;
+  background-color: #fff;
+  padding: 10px;
+}
+
+.card-hero .stars {
+  margin-left: 20px;
+}
+
+.card-foot {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 20px;
+  font-size: 11px;
+}
+
+.card-foot .name {
+  margin-left: 10px;
+}
+
+/* The circling within the hero section of the webpage */
+.circle {
+  width: 700px;
+  height: 700px;
+  border-radius: 100%;
+  border: 0.5px solid #ccc;
+  position: absolute;
+  top: 0;
+  left: 15%;
+  z-index: 0;
+
+  position: relative;
+}
+
+.inner-1 {
+  width: 550px;
+  height: 550px;
+  border-radius: 100%;
+  border: 0.5px solid #ccc;
+  position: absolute;
+  top: 8%;
+  left: 12%;
+}
+.inner-2 {
+  width: 400px;
+  height: 400px;
+  border-radius: 100%;
+  border: 0.5px solid #ccc;
+  position: absolute;
+  top: 13%;
+  left: 13%;
+}
+.inner-3 {
+  width: 250px;
+  height: 250px;
+  border-radius: 100%;
+  border: 0.5px solid #ccc;
+  position: absolute;
+  top: 18%;
+  left: 20%;
+}
+
+/* Testimonials */
+.row {
+  grid-gap: 100px !important;
+}
+
+.card {
+  box-shadow: 0.5px 1px 10px #ccc;
+}
+
+.stars p {
+  font-weight: 600;
+  display: inline-block;
+  font-size: 10px;
+}
+
+.test-details {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  background-color: #f8f8f8;
+  padding: 10px;
+  border-radius: 0 0 6px 6px;
+}
+
+.test-details .name {
+  margin-left: 15px;
+  text-align: left;
+}
+
+.test-details .name h6 {
+  font-size: 10px;
+  margin-top: 5px;
+  font-weight: 600;
+}
+
+.test-details .name > p {
+  font-size: 10px;
+}
+
+.tag-brand p {
+  border-radius: 0 6px 6px 0;
+  color: #ff6634 !important;
+  background-color: #ffebff;
+}
+
+.col {
+  margin: 30px auto;
+}
+
+.change {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.small-circle {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  margin: auto 5px;
+  border: 1px solid #8d8d8d;
+}
+
+.small-circle:first-child {
+  background-color: #8d8d8d;
+}
+
+/* Subscription section */
+.sub {
+  width: 100%;
+  padding: 40px;
+  background-color: #f8f8f8;
+}
+
+.sub-content {
+  width: 50%;
+}
+/* Advertisment styling */
+.rectangle {
+  background-color: #f8f8f8;
+}
+
+/* Get started */
+
+.create {
+  background-color: #ffebff;
+  padding: 50px 20px;
+}
+
+.create h5 {
+  width: 30%;
+  line-height: 1.9;
+  font-weight: bold;
+}
+
+/* button styling */
+.btn-submit {
+  background-color: #ff6634;
+}
+
+@media (max-width: 995px) {
+  .container {
+    width: 80%;
+    margin: 20px auto;
+  }
+
+  .hero-flex {
+    padding-top: 20px;
+  }
+
+  .hero-details {
+    width: 100%;
+  }
+  /* The Quotes */
+  .quote {
+    margin: 40px auto;
+  }
+
+  .create h5 {
+    width: 80%;
+    text-align: center;
+  }
+
+  .circle {
+    display: none;
+  }
+
+  /* The cascading styles for the hero section */
+
+  .hero-test {
+    position: inherit;
+    top: 0px;
+    left: 0px;
+    /* display: none; */
+  }
+
+  .percent {
+    width: 81px;
+    height: 80px;
+    text-align: center;
+    border-radius: 6px;
+    top: 40px;
+    left: 0;
+    box-shadow: 0px 4px 11px 5px rgba(239, 239, 239, 0.25);
+  }
+
+  .inner-per {
+    margin: 20px auto;
+  }
+
+  .employ-number {
+    top: 40px;
+    right: 0;
+    /* margin: 20px; */
+    box-shadow: 1px 1px 3px #ccc;
+  }
+
+  .card-hero {
+    display: none;
+  }
+
+  .images img {
+    width: 80%;
+  }
+
+  /* Review */
+  .review {
+    margin-top: 50px;
+  }
+
+  /* Subscription */
+  .sub-content {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+    order: 5;
+  }
+
+  .sub-content p {
+    width: 100%;
+    /* text-align: left; */
+  }
+
+  .img-message {
+    order: 1;
+  }
+
+  /* brands */
+  .brand {
+    text-align: center;
+    margin: auto;
+  }
+
+  footer {
+    text-align: center;
+  }
+}
